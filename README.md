@@ -1,5 +1,7 @@
 # Rack::AccessRemoteAssets
 
+## This is an early push. I just extracted the functionality into this repo. I have to make a proper gem from it. The code should work though. Handle with care.
+
 Rack::AccessRemoteAssets is a Rack middleware, *for Rails apps*, which can beautify your local development. Imagine you take a database dump from your staging or production machine and import it into your development database to be able to work with real data. All the uploaded images will then be missing (like `/system/images/uploads/original/0000/x/y/z.jpg`).
 
 This middleware takes over the requests for images missing on your filesystem and requests them from a given remote uri.
