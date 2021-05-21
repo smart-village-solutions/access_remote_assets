@@ -1,0 +1,12 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0",
+    "title" : ""
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/smart-village-app/SmartVillage-Server/1.0",
+  "schemes" : [ "https" ],
+  "paths" : { }
+}
